@@ -1,5 +1,16 @@
 install.packages(c("sp", "GGally", "raster", "rgdal", "ggplot2", "devtools", "vegan", "spatstat", "RStoolbox", "rasterdiv", "rasterVis",  "sf", "ncdf4", "sdm" ))
 
+install.packages("MODIStsp") # MODIS dataset
+install.packages("gWidgetsRGtk2") #necessary for GTK+ library 
+
+library(devtools)
+install_github("ropensci/MODIStsp") # aggiornamento
+
+
+
+
+library(gWidgetsRGtk2)
+
 
 library(sp)
 library(GGally)
