@@ -44,12 +44,16 @@ install.packages("sdm")
 install.packages("BIOMASS")
 install.packages("remotes")
 remotes::install_github('umr-amap/BIOMASS')
+install.packages("gridExtra") # pacchetto usato insieme a ggplot2
+
+
 
 library(sp)
 library(GGally)
 library(raster)
 library(rgdal)    ##library(gdalUtils) to traslate file format
 library(ggplot2)
+library(gridExtra)
 library(devtools)
 library(vegan)
 library(spatstat)
@@ -59,4 +63,6 @@ library(rasterVis)
 library(ncdf4)                                                        # required to read our data format ".nc"
 library (sf)  
 library (sdm) 
+library(remotes)
 library(BIOMASS)
+
