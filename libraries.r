@@ -33,7 +33,6 @@ install.packages("raster")
 install.packages("rgdal")
 install.packages("ggplot2")
 install.packages("devtools")
-install.packages("vegan")
 install.packages("spatstat")
 install.packages("RStoolbox")
 install.packages("rasterdiv")
@@ -45,8 +44,6 @@ install.packages("BIOMASS")
 install.packages("remotes")
 remotes::install_github('umr-amap/BIOMASS')
 install.packages("gridExtra") # pacchetto usato insieme a ggplot2
-
-
 
 library(sp)
 library(GGally)
@@ -66,3 +63,11 @@ library (sdm)
 library(remotes)
 library(BIOMASS)
 
+# BIOMAC 21
+install.packages("vegan")
+install.packages ("betapart")
+install.packages ("Hmisc")
+
+library(vegan)
+library(betapart)
+library(Hmisc)
