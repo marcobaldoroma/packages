@@ -1,4 +1,4 @@
-install.packages(c("sp", "GGally", "raster", "rgdal", "ggplot2", "devtools", "vegan", "spatstat", "RStoolbox", "rasterdiv", "rasterVis",  "sf", "ncdf4", "sdm" ))
+# install.packages(c("sp", "GGally", "raster", "rgdal", "ggplot2", "devtools", "vegan", "spatstat", "RStoolbox", "rasterdiv", "rasterVis",  "sf", "ncdf4", "sdm" ))
 
 # to download MODIS images directly on R 
 install.packages("MODIStsp") # MODIS dataset
@@ -44,6 +44,7 @@ install.packages("BIOMASS")
 install.packages("remotes")
 remotes::install_github('umr-amap/BIOMASS')
 install.packages("gridExtra") # pacchetto usato insieme a ggplot2
+install.packages("VoCC")
 
 library(sp)
 library(GGally)
@@ -62,6 +63,8 @@ library (sf)
 library (sdm) 
 library(remotes)
 library(BIOMASS)
+library(gridExtra)
+library(VoCC)
 
 # BIOMAC 21
 install.packages("vegan")
